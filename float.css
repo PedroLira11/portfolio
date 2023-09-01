@@ -1,0 +1,46 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: rgba(16, 19, 196, 0.856);
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+}
+.elementExample_first {
+    background-color: violet;
+    float:left;
+}
+.elementExample_last {
+    background-color: rgb(5, 5, 5);
+    float:right;
+    top: 20px;
+    position: relative;
+    bottom: 103px;
+    left: 100px;
+    
+    
+}
+
+article {
+    background-color: sienna;
+    overflow: hidden;
+    
+    
+
+}
+
+.elementParagraph {
+    padding-top: 0;
+    margin-top: 0px;
+    clear: both;
+    position: static;
+        
+        
+        
+        
+        
+      
+
+}

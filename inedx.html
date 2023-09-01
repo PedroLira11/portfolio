@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio de Programador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h2>Seu nome</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <div class="container">
+        <h2>Sobre mim</h2>
+        <p>Descreva-se e suas habilidades.</p>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <h2>Projetos</h2>
+        <h4><a href="/cont-Financeiro-Pessoal-master/index.html">Controle Financeiro Pessoal</a></h4>
+        <div class="project">
+          <img src="projeto1.jpg" alt="Projeto 1">
+          <h9>Título do projeto 1</h9>
+            <p>Descrição breve do projeto 1.</p>
+          <a href="#" class="button">Veja mais</a>
+        </div>
+        <div class="project">
+          <img src="projeto2.jpg" alt="Projeto 2">
+          <h3>Título do projeto 2</h3>
+          <p>Descrição breve do projeto 2.</p>
+          <a href="#" class="button">Veja mais</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <form action="#">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit" class="button">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Seu nome. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
